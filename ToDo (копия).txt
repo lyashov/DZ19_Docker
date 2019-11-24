@@ -1,0 +1,4 @@
+docker volume create postgres_data
+postgres_data
+
+docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=123 -e POSTGRES_USER=postgres -v postgres_data:/var/lib/postgresql/data postgres

@@ -1,0 +1,2 @@
+1. docker pull jboss/wildfly
+2. sudo docker-compose up -d
